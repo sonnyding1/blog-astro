@@ -52,6 +52,10 @@ Here is 阿梓 singing advantage Lucy's chic:
 
 <iframe src="////player.bilibili.com/player.html?aid=993714704&bvid=BV1zx4y1P76V&cid=1059263839&page=1&high_quality=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 
+For reference, the original song is like this:
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/q1pVYUi6RhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Conclusion
 
 That was fun. Although I didn't write much code, I learned a lot about audio processing. Furthermore, this may be the beginning of my study about AI in the field of audio processing, I might start with learning VITS, a text to speech technique.
