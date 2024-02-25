@@ -4,8 +4,8 @@ content:
     type: collection
     path: src/content/blog
     fields:
-      - { name: pubDatetime, label: Publish Date Time, type: date }
       - { name: title, label: Title, type: string }
+      - { name: pubDatetime, label: Publish Date Time, type: date }
       - { name: postSlug, label: Post Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
