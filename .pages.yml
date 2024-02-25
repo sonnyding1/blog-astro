@@ -5,6 +5,7 @@ content:
     path: src/content/blog
     view:
       fields: [ title, pubDatetime ]
+      sort: [ pubDatetime ]
     fields:
       - { name: title, label: Title, type: string }
       - { name: pubDatetime, label: Publish Date Time, type: date }
