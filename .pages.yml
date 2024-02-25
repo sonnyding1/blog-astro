@@ -3,6 +3,8 @@ content:
     label: Posts
     type: collection
     path: src/content/blog
+    view:
+      fields: [ title, pubDatetime ]
     fields:
       - { name: title, label: Title, type: string }
       - { name: pubDatetime, label: Publish Date Time, type: date }
