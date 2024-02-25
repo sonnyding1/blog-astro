@@ -1,0 +1,12 @@
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/blog
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: postSlug, label: Post Slug, type: string }
+      - { name: featured, label: Featured, type: boolean }
+      - { name: draft, label: Draft, type: boolean }
+      - { name: description, label: Description, type: string }
+      - { name: body, label: Body, type: rich-text }
