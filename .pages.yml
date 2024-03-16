@@ -12,12 +12,7 @@ content:
       - { name: postSlug, label: Post Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
-      - name: tags
-        label: Tags
-        type: object
-        list: true
-        fields:
-          - { name: tag, label: Tag, type: string }
+      - { name: tags, label: Tag, type: string, list: true }
       - { name: ogImage, label: OG Image, type: image }
       - { name: description, label: Description, type: string }
       - { name: body, label: Body, type: rich-text }
