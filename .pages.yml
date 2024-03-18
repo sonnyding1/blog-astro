@@ -21,4 +21,4 @@ content:
     type: file
     path: src/pages/about.md
     fields:
-      - {  }
+      - { name: body, label: Body, type: rich-text }
