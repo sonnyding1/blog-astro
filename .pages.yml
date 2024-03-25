@@ -22,4 +22,6 @@ content:
     type: file
     path: src/pages/about.md
     fields:
+      - { name: layout, label: Layout, type: string }
+      - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text }
