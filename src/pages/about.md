@@ -1,4 +1,6 @@
 ---
+layout: ../layouts/AboutLayout.astro
+title: About
 ---
 Hi, this is Sonny Ding, I am currently an undergraduate student studying Electrical Engineering at [UCLA](https://www.ucla.edu/). I have also spent about 2 years studying at [UC Riverside](https://www.ucr.edu/). Welcome to my blog site, this will be a casual space that records my life.
 
