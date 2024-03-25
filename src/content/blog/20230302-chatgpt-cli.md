@@ -1,15 +1,15 @@
 ---
-pubDatetime: 2023-03-02T16:00:00Z
 title: ChatGPT-cli
+pubDatetime: 2023-03-02T16:00:00Z
 postSlug: chatgpt-cli
-featured: true
+featured: false
 draft: false
 tags:
   - project
-ogImage: ""
-description: Recently, OpenAI released API for ChatGPT, I took advantage of that, and did a little test run. This is going to be a fairly short blog post, all I've done is to test the new API.
+description: Recently, OpenAI released API for ChatGPT, I took advantage of
+  that, and did a little test run. This is going to be a fairly short blog post,
+  all I've done is to test the new API.
 ---
-
 Recently, OpenAI released API for ChatGPT, I took advantage of that, and did a little test run. This is going to be a fairly short blog post, all I've done is to test the new API.
 
 ## API
