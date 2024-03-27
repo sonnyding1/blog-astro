@@ -7,7 +7,8 @@ There are so many things I want to do, below is a list of them:
 
 ## Code
 
-- [ ] Email auto labeler - A script or Chrome extension that automatically labels my emails as "applied" or "rejected" based on the content of the email. I want to generate a [SankeyMATIC](https://sankeymatic.com/) diagram of my job application process, but I am too lazy to keep track of my applications manually.
+[ ] Email auto labeler - A script or Chrome extension that automatically labels my emails as "applied" or "rejected" based on the content of the email. I want to generate a [SankeyMATIC](https://sankeymatic.com/) diagram of my job application process, but I am too lazy to keep track of my applications manually.
+
 - [ ] Sticker Stride - A web app that displays a calndar, users can add different stickers onto each date, tracking their habits.
 - [ ] Slay the Spire clone - Follow [this playlist](https://www.youtube.com/playlist?list=PL6SABXRSlpH8CD71L7zye311cp9R4JazJ) to familiarize myself with the Godot engine.
 - [ ] Pandoc filter - Currently, exporting Obsidian MD notes to PDF is a pain, I want to write a Pandoc filter that can convert Obsidian MD notes to PDF, especially for notes with callouts.
