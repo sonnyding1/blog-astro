@@ -1,0 +1,27 @@
+media: src/assets
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: src/content/blog
+    view:
+      fields: [ title, pubDatetime ]
+      sort: [ pubDatetime ]
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: pubDatetime, label: Publish Date Time, type: date }
+      - { name: postSlug, label: Post Slug, type: string }
+      - { name: featured, label: Featured, type: boolean }
+      - { name: draft, label: Draft, type: boolean }
+      - { name: tags, label: Tag, type: string, list: true }
+      - { name: ogImage, label: OG Image, type: image }
+      - { name: description, label: Description, type: string }
+      - { name: body, label: Body, type: rich-text }
+  - name: about
+    label: About
+    type: file
+    path: src/pages/about.md
+    fields:
+      - { name: layout, label: Layout, type: string }
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Body, type: rich-text }
