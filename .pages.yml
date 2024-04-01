@@ -14,7 +14,7 @@ content:
         type: date
         options:
           time: true
-          format: DD-MM-YYYY HH:mm
+          format: YYYY-MM-DDTHH:mm:ssZ
       - { name: postSlug, label: Post Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
