@@ -1,3 +1,4 @@
+media: src/assets
 content:
   - name: posts
     label: Posts
@@ -15,4 +16,20 @@ content:
       - { name: tags, label: Tag, type: string, list: true }
       - { name: ogImage, label: OG Image, type: image }
       - { name: description, label: Description, type: string }
+      - { name: body, label: Body, type: rich-text }
+  - name: about
+    label: About
+    type: file
+    path: src/pages/about.md
+    fields:
+      - { name: layout, label: Layout, type: string }
+      - { name: title, label: Title, type: string }
+      - { name: body, label: Body, type: rich-text }
+  - name: todo
+    label: Todo
+    type: file
+    path: src/pages/todo.md
+    fields:
+      - { name: layout, label: Layout, type: string }
+      - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text }
