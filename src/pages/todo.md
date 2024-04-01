@@ -20,6 +20,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Laughing Man - A web app that shows a camera feed with people's faces blurred out or covered with the Laughing Man logo in Ghost in the Shell.
     
+*   Todo mobile app - Todo app, but I want the UI to be aesthetically appeasing according to my standards, auto moves completed forms to bottom, auto archive completed items before today, auto generates logs for review/export.
+    
 *   Refine math web app - Probably add a landing page, and some level progression related contents.
     
 *   Bode plot web app - A web app that allows users to draw Bode plots.
