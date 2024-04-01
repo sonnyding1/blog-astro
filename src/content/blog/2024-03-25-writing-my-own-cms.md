@@ -1,6 +1,6 @@
 ---
 title: Writing my own CMS
-pubDatetime: 20-03-2025 17:27
+pubDatetime: 2024-03-25T10:58:00-07:00
 postSlug: writing-my-own-cms
 featured: true
 draft: false
