@@ -9,7 +9,12 @@ content:
       sort: [ pubDatetime ]
     fields:
       - { name: title, label: Title, type: string }
-      - { name: pubDatetime, label: Publish Date Time, type: date }
+      - name: pubDatetime
+        label: Publish Date Time
+        type: date
+        options:
+          time: true
+          format: DD-MM-YYYY HH:mm
       - { name: postSlug, label: Post Slug, type: string }
       - { name: featured, label: Featured, type: boolean }
       - { name: draft, label: Draft, type: boolean }
