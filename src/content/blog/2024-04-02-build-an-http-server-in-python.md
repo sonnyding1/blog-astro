@@ -3,12 +3,12 @@ title: Build an HTTP server in Python
 pubDatetime: 2024-04-02
 postSlug: build-an-http-server-in-python
 featured: false
-draft: true
+draft: false
 tags:
   - project
   - Python
 ---
-I followed this project on [Codecrafters]()
+As the title suggests, I built an HTTP server using Python. I followed this project on [Codecrafters](https://app.codecrafters.io)， which is a great platform for implementing things on your own. Below are the specific steps taken to build a basic server.
 
 ### Bind to a port
 
@@ -195,24 +195,38 @@ args = parser.parse_args()
 
 ```python
 elif len(path) >= 6 and path[:6] == "/files":
-        file_path = os.path.join(args.directory, path[7:])
-        print("file path: ", file_path)
-        if os.path.isfile(file_path):
-            body = ""
-            with open(file_path, "r") as file:
-                body = file.read()
-            output.append("HTTP/1.1 200 OK")
-            output.append("Content-Type: application/octet-stream")
-            output.append(f"Content-Length: {len(body)}")
-            output.append("")
-            output.append(body)
-        else:
-            print("file not found")
-            output.append("HTTP/1.1 404 Not Found")
-            output.append("Content-Length: 0")
-            output.append("")
+    file_path = os.path.join(args.directory, path[7:])
+    print("file path: ", file_path)
+    if os.path.isfile(file_path):
+        body = ""
+        with open(file_path, "r") as file:
+            body = file.read()
+        output.append("HTTP/1.1 200 OK")
+        output.append("Content-Type: application/octet-stream")
+        output.append(f"Content-Length: {len(body)}")
+        output.append("")
+        output.append(body)
+    else:
+        print("file not found")
+        output.append("HTTP/1.1 404 Not Found")
+        output.append("Content-Length: 0")
+        output.append("")
 ```
 
 ### Post a file
 
 For `POST /files/<filename>`, we need to store the request body into the specified file. Response code should be 201.
+
+```python
+elif method == "POST" and len(path) >= 6 and path[:6] == "/files":
+    file_path = os.path.join(args.directory, path[7:])
+    body = input[6]
+    with open(file_path, "w") as file:
+        file.write(body)
+    output.append("HTTP/1.1 201 OK")
+    output.append("")
+```
+
+### Conclusion
+
+Now that the server is capable of handling various `GET` requests and `POST` requests, we can say that it is actually a complete server. In this project, I got to practice parsing different parts of HTTP requests, and return specific responses. If you'd like to view my complete code, please check out my [repo](https://github.com/sonnyding1/sonnyding1-codecrafters-http-server-python), thanks!
