@@ -7,6 +7,7 @@ draft: false
 tags:
   - project
   - Python
+description: I built an HTTP server in Python.
 ---
 As the title suggests, I built an HTTP server using Python. I followed this project on [Codecrafters](https://app.codecrafters.io)， which is a great platform for implementing things on your own. Below are the specific steps taken to build a basic server.
 
