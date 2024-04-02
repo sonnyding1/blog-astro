@@ -2,7 +2,7 @@
 title: Build an HTTP server in Python
 pubDatetime: 2024-04-02
 postSlug: build-an-http-server-in-python
-featured: false
+featured: true
 draft: false
 tags:
   - project
