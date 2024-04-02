@@ -11,7 +11,7 @@ description: I built an HTTP server in Python.
 ---
 As the title suggests, I built an HTTP server using Python. I followed this project on [Codecrafters](https://app.codecrafters.io)， which is a great platform for implementing things on your own. Below are the specific steps taken to build a basic server.
 
-### Bind to a port
+## Bind to a port
 
 We use `socket` to spin up a server.
 
@@ -21,7 +21,7 @@ server_socket = socket.create_server(("localhost", 4221), reuse_port=True)
 server_socket.accept() # wait for client
 ```
 
-### Respond with 200
+## Respond with 200
 
 For any request, respond with `HTTP/1.1 200 OK\r\n\r\n`, which is the **HTTP status line**. `\r\n` is **CRLF**, first one is the end of the status line, second is the end of the response headers, in this case there is none.
 
@@ -35,7 +35,7 @@ server_socket.close()
 ```
 
 
-### Respond with 404
+## Respond with 404
 
 Now we need to actually look at the content of the user request:
 
@@ -68,7 +68,7 @@ def handle_request(input: bytes) -> bytes:
     return output
 ```
 
-### Respond with content
+## Respond with content
 
 Now, a user request may look like:
 
@@ -122,7 +122,7 @@ def handle_request(input: bytes) -> bytes:
     return convert_to_output(output)
 ```
 
-### Parse headers
+## Parse headers
 
 Now, if `/user-agent`, our response should be the `User-Agent`'s value.
 
@@ -152,7 +152,7 @@ elif len(path) >= 11 and path[:11] == "/user-agent":
 	output.append(body)
 ```
 
-### Concurrent connections
+## Concurrent connections
 
 To handle concurrent connections, I would like to use `threading`.
 
@@ -176,7 +176,7 @@ def main():
         thread.start()
 ```
 
-### Get a file
+## Get a file
 
 Our server should also accept an argument,
 
@@ -214,7 +214,7 @@ elif len(path) >= 6 and path[:6] == "/files":
         output.append("")
 ```
 
-### Post a file
+## Post a file
 
 For `POST /files/<filename>`, we need to store the request body into the specified file. Response code should be 201.
 
@@ -228,6 +228,6 @@ elif method == "POST" and len(path) >= 6 and path[:6] == "/files":
     output.append("")
 ```
 
-### Conclusion
+## Conclusion
 
 Now that the server is capable of handling various `GET` requests and `POST` requests, we can say that it is actually a complete server. In this project, I got to practice parsing different parts of HTTP requests, and return specific responses. If you'd like to view my complete code, please check out my [repo](https://github.com/sonnyding1/sonnyding1-codecrafters-http-server-python), thanks!
