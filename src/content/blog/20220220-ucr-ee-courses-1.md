@@ -1,15 +1,15 @@
 ---
+title: UCR EE courses website
 pubDatetime: 2022-02-20T16:00:00Z
-title: UCR EE Courses Website (1)
 postSlug: ucr-ee-courses-website-1
 featured: false
 draft: false
 tags:
   - project
-ogImage: ""
-description: It's time to register for some classes to take in the Spring quarter. Unfortunately, course selection has never been a pleasant experience at UCR, because UCR's course selection system is terrible.
+description: It's time to register for some classes to take in the Spring
+  quarter. Unfortunately, course selection has never been a pleasant experience
+  at UCR, because UCR's course selection system is terrible.
 ---
-
 It's time to register for some classes to take in the Spring quarter. Unfortunately, course selection has never been a pleasant experience at UCR, because UCR's course selection system is terrible. Besides, as an Electrical Engineering student, I became confused about the prerequisites for certain classes. That's why I wanted to make a course roadmap that can:
 
 1. Give an intuitive understanding of what classes should be taken as an EE major student.
