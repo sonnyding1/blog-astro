@@ -1,5 +1,5 @@
 ---
-title: Writing my own CMS
+title: Writing My Own CMS
 pubDatetime: 2024-03-25T10:58:00-07:00
 postSlug: writing-my-own-cms
 featured: true
