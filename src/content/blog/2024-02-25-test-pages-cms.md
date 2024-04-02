@@ -1,5 +1,5 @@
 ---
-title: Test Pages CMS
+title: Test pages CMS
 pubDatetime: 2024-02-25
 postSlug: test-pages-cms
 featured: false
