@@ -1,15 +1,14 @@
 ---
+title: Voice conversion with so-vits-svc
 pubDatetime: 2023-03-19T07:22:56Z
-title: Voice Conversion with so-vits-svc
 postSlug: voice-conversion-with-so-vits-svc
 featured: true
 draft: false
 tags:
   - project
-ogImage: ""
-description: In this post, I will briefly describe how I trained a voice conversion model using this so-vits-svc 4.0 repository.
+description: In this post, I will briefly describe how I trained a voice
+  conversion model using this so-vits-svc 4.0 repository.
 ---
-
 ## Table of contents
 
 ## Introduction
