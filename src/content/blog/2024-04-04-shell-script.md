@@ -8,7 +8,7 @@ tags:
   - notes
 description: Some notes on writing shell scripts
 ---
-This post serves as a memo for myself in case I need to re-learn writing shell scripts in the future. The note content strictly follows \[this tutorial\]([https://www.shellscript.sh/](https://www.shellscript.sh/)) by Steve Parker.
+This post serves as a memo for myself in case I need to re-learn writing shell scripts in the future. The note content strictly follows [this tutorial](https://www.shellscript.sh/) by Steve Parker.
 
 ## What is sh?
 
