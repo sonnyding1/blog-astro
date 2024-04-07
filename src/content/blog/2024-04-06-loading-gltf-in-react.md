@@ -1,7 +1,7 @@
 ---
-title: Loading glTF in React
+title: 3D fox in React
 pubDatetime: 2024-04-06
-postSlug: loading-gltf-in-react
+postSlug: 3d-fox-in-react
 featured: false
 draft: true
 tags:
