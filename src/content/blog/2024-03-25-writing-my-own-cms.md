@@ -17,7 +17,7 @@ I initialized a React project using [Vite](https://vitejs.dev/). For the UI, I e
 
 ## Routing
 
-This is my first time developing a multi-paged React web app. I familiarized myself with [React Router](https://reactrouter.com/en/main)to set up the routes for my portfolio:
+This is my first time developing a multi-paged React web app. I familiarized myself with [React Router](https://reactrouter.com/en/main) to set up the routes for my portfolio:
 
 ```tsx
 // src/main.tsx
