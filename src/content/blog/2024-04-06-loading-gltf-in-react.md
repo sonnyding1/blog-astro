@@ -12,7 +12,9 @@ description: Loading glTF fox model in React that runs around.
 ---
 Following my previous post about implementing a CMS for my portfolio web application, I have also added a 3D scene in the background that included a fox. The fox would run around, following the uesr's cursor.
 
-![fox-demo]()
+![](https://na-406607901.imgix.net/portfolio/fox-demo.png)
+
+![](https://na-406607901.imgix.net/portfolio/fox-demo-mobile.jpeg)
 
 Check it out [here](https://sonnyding-portfoilio.vercel.app/)!
 
