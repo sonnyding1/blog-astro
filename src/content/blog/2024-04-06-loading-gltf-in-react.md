@@ -14,7 +14,7 @@ Following my previous post about implementing a CMS for my portfolio web applica
 
 ![](https://na-406607901.imgix.net/portfolio/fox-demo.png)
 
-<img src="https://na-406607901.imgix.net/portfolio/fox-demo-mobile.jpeg" alt="fox-demo-mobile" height="100">
+<img src="https://na-406607901.imgix.net/portfolio/fox-demo-mobile.jpeg" alt="fox-demo-mobile" width="300">
 
 Check it out [here](https://sonnyding-portfoilio.vercel.app/)!
 
