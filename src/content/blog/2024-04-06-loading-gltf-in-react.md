@@ -10,11 +10,11 @@ tags:
   - 3D
 description: Loading glTF fox model in React that runs around.
 ---
-under construction...
-
 Following my previous post about implementing a CMS for my portfolio web application, I have also added a 3D scene in the background that included a fox. The fox would run around, following the uesr's cursor.
 
 ![fox-demo]()
+
+Check it out [here](https://sonnyding-portfoilio.vercel.app/)!
 
 ## Set up the 3D scene
 
@@ -41,12 +41,13 @@ export default function Fox() {
   return (
     <primitive
       object={gltf.scene}
+      rotation-x={Math.PI * 0.2}
     />
   );
 }
 ```
 
-The above approach essentially bulk loads the entire fox scene, instead of unpacking the glTF file, and then load them step by step. Very convenient.
+The above approach essentially bulk loads the entire fox scene, instead of unpacking the glTF file, and then load them step by step. Very convenient. I've also added rotation along the x-axis to emulate a semi top down view.
 
 ## Perspective
 
@@ -95,3 +96,62 @@ useEffect(() => {
 
 Where `camera` is obtained by calling `const { camera } = useThree();`. So, every time the dimension of the camera or the browser changes, we recompute the mapping between the browser coordinates and the three.js coordinates.
 
+## Animation
+
+The fox model included 3 animations, Survey, Walk, Run. I coded its animation such that if the fox arrives at its destination (the cursor location), survey. If the distance is over a certain threshold, run. Else, just walk. I updated the animations in a function called `useFrame()`, which is triggered on each frame:
+
+```tsx
+useFrame((_state, delta) => {
+  const distance = foxPosition.distanceTo(foxDestination);
+  console.log(distance);
+  if (distance > 0.01) {
+    const direction = foxDestination.clone().sub(foxPosition).normalize();
+    const newFoxPosition = foxPosition
+      .clone()
+      .add(direction.multiplyScalar(foxSpeed * delta));
+    setFoxPosition(newFoxPosition);
+
+    // animation
+    if (!isFoxRunning && distance > 0.15) {
+      setIsFoxRunning(true);
+      setFoxSpeed(0.15);
+      if (actions?.Survey && actions?.Walk && actions?.Run) {
+        actions.Walk.fadeOut(0.2).stop();
+        actions.Survey.fadeOut(0.2).stop();
+        // actions.Walk.fadeIn(0.2).play();
+        actions.Run.setEffectiveTimeScale(2);
+        actions.Run.fadeIn(0.2).play();
+      }
+    }
+    if (!isFoxMoving && distance > 0.02) {
+      setIsFoxMoving(true);
+      setFoxSpeed(0.07);
+      if (actions?.Survey && actions?.Walk && actions?.Run) {
+        actions.Survey.fadeOut(0.2).stop();
+        actions.Walk.fadeIn(0.2).play();
+        // actions.Run.fadeIn(0.2).play();
+      }
+    }
+
+    const angleInRadians = Math.atan2(direction.x, -direction.y);
+    setFoxXRotation(angleInRadians);
+  } else {
+    // animation
+    if (isFoxMoving) {
+      setIsFoxMoving(false);
+      setIsFoxRunning(false);
+      if (actions?.Survey && actions?.Walk && actions?.Run) {
+        actions.Walk.fadeOut(0.2).stop();
+        actions.Run.fadeOut(0.2).stop();
+        actions.Survey.fadeIn(0.2).play();
+      }
+    }
+  }
+});
+```
+
+In the function above, I also computed the fox's rotation and its travel speed. Notice how every update is multiplied by `delta` to prevent fox speed varying on machines with different frame rates. 
+
+## Conclusion
+
+By implementing this feature, I noticed how incorporating 3D objects in a React application is actually relatively easy, mainly because React Three Fiber and Drei have applied layers of abstractions on top of three.js, and they saved me from writing so many lines of code. Please checkout my portfolio page: [https://sonnyding-portfoilio.vercel.app/](https://sonnyding-portfoilio.vercel.app/)
