@@ -3,7 +3,7 @@ title: 3D fox in React
 pubDatetime: 2024-04-06
 postSlug: 3d-fox-in-react
 featured: false
-draft: true
+draft: false
 tags:
   - project
   - front-end
