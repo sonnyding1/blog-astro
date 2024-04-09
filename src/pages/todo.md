@@ -10,6 +10,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Sticker Stride - A web app that displays a calndar, users can add different stickers onto each date, tracking their habits.
     
+*   Productivity app, but actually incorporated with games
+    
 *   Slay the Spire clone - Follow [this playlist](https://www.youtube.com/playlist?list=PL6SABXRSlpH8CD71L7zye311cp9R4JazJ) to familiarize myself with the Godot engine.
     
 *   Host my own analytics app
