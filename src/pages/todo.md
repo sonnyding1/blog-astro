@@ -36,7 +36,7 @@ There are so many things I want to do, below is a list of them:
     
 *   Resume web app - A web app that allows users to input their information and company's requirements, then the app will generate a resume for the user that fits the requirements most.
     
-*   Godot AI - Try to integrate ML models into Godot, and let the AI some classic games.
+*   Godot AI - Try to integrate ML models into Godot, and let the AI solve some classic games.
     
 *   Learn Rust
     
