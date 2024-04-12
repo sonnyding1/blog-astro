@@ -6,9 +6,13 @@ There are so many things I want to do, below is a list of them:
 
 ## Code
 
+*   Emacs dribble file executor
+    
 *   Email auto labeler - A script or Chrome extension that automatically labels my emails as "applied" or "rejected" based on the content of the email. I want to generate a [SankeyMATIC](https://sankeymatic.com/) diagram of my job application process, but I am too lazy to keep track of my applications manually.
     
 *   Sticker Stride - A web app that displays a calndar, users can add different stickers onto each date, tracking their habits.
+    
+*   Figure out how does Umami work
     
 *   Productivity app, but actually incorporated with games
     
@@ -33,6 +37,12 @@ There are so many things I want to do, below is a list of them:
 *   Resume web app - A web app that allows users to input their information and company's requirements, then the app will generate a resume for the user that fits the requirements most.
     
 *   Godot AI - Try to integrate ML models into Godot, and let the AI some classic games.
+    
+*   Learn Rust
+    
+*   Learn Vue
+    
+*   Learn WASM
     
 
 ## Hardware
