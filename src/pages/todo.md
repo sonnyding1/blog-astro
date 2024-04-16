@@ -6,8 +6,6 @@ There are so many things I want to do, below is a list of them:
 
 ## Code
 
-*   Emacs dribble file executor
-    
 *   Email auto labeler - A script or Chrome extension that automatically labels my emails as "applied" or "rejected" based on the content of the email. I want to generate a [SankeyMATIC](https://sankeymatic.com/) diagram of my job application process, but I am too lazy to keep track of my applications manually.
     
 *   Sticker Stride - A web app that displays a calndar, users can add different stickers onto each date, tracking their habits.
