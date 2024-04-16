@@ -63,3 +63,11 @@ There are so many things I want to do, below is a list of them:
 *   余华短篇精选集
     
 *   The Mythical Man-Month
+    
+*   Async JavaScript
+    
+*   Test-Driven React
+    
+*   狼书（卷1）
+    
+*   ダンジョン飯
