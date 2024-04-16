@@ -69,3 +69,7 @@ There are so many things I want to do, below is a list of them:
 *   狼书（卷1）
     
 *   ダンジョン飯
+    
+*   竹光侍
+    
+*   バガボンド
