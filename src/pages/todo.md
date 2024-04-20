@@ -53,7 +53,7 @@ There are so many things I want to do, below is a list of them:
 ## Books
 
 *   [Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
-
+    
 *   The StatQuest Illustrated Guide To Machine Learning
     
 *   Who Moved my Cheese?
@@ -75,3 +75,7 @@ There are so many things I want to do, below is a list of them:
 *   竹光侍
     
 *   バガボンド
+    
+*   Steel Ball Run
+    
+*   Feeling Good: The New Mood Therapy
