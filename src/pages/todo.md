@@ -83,3 +83,5 @@ There are so many things I want to do, below is a list of them:
 *   Feeling Good: The New Mood Therapy
     
 *   No Silver Bullet
+    
+*   采购与供应链管理：一个实践者的角度
