@@ -43,6 +43,8 @@ There are so many things I want to do, below is a list of them:
 *   Learn Vue
     
 *   Learn WASM
+
+*   [蒋炎岩《操作系统》](https://jyywiki.cn/)
     
 
 ## Hardware
@@ -107,3 +109,7 @@ There are so many things I want to do, below is a list of them:
 *   The Classroom Management Book
     
 *   How to Take Smart Notes
+    
+*   Computer Systems: A Programmer's Perspective (CSAPP)
+    
+*   Operating Systems: Three Easy Pieces (OSTEP)
