@@ -85,3 +85,25 @@ There are so many things I want to do, below is a list of them:
 *   No Silver Bullet
     
 *   采购与供应链管理：一个实践者的角度
+    
+*   Bible
+    
+*   Interconnections: Bridges, Routers, Switches, and Internetworking Protocols
+    
+*   Project Management for the Unofficial Project Manager
+    
+*   The Emperor of All Maladies
+    
+*   Peopleware
+    
+*   Designing Data Intensive Applications
+    
+*   Structure And Interpretation of Computer Programs
+    
+*   Color and Light: A Guide for the Realist Painter
+    
+*   Reinventing Organizations
+    
+*   The Classroom Management Book
+    
+*   How to Take Smart Notes
