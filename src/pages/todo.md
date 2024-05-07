@@ -98,7 +98,7 @@ There are so many things I want to do, below is a list of them:
     
 *   Designing Data Intensive Applications
     
-*   Structure And Interpretation of Computer Programs
+*   Structure And Interpretation of Computer Programs (SICP!)
     
 *   Color and Light: A Guide for the Realist Painter
     
