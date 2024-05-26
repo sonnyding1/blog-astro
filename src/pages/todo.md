@@ -18,8 +18,6 @@ There are so many things I want to do, below is a list of them:
     
 *   Slay the Spire clone - Follow [this playlist](https://www.youtube.com/playlist?list=PL6SABXRSlpH8CD71L7zye311cp9R4JazJ) to familiarize myself with the Godot engine.
     
-*   Host my own analytics app
-    
 *   Pandoc filter - Currently, exporting Obsidian MD notes to PDF is a pain, I want to write a Pandoc filter that can convert Obsidian MD notes to PDF, especially for notes with callouts.
     
 *   learn Kaggle courses - I want to learn more about Scikit-learn, Pandas, and other data science tools.
@@ -39,8 +37,6 @@ There are so many things I want to do, below is a list of them:
 *   Godot AI - Try to integrate ML models into Godot, and let the AI solve some classic games.
     
 *   Learn Rust
-    
-*   Learn Vue
     
 *   Learn WASM
     
