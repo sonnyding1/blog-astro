@@ -48,6 +48,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Time frequency domain image combiner - pick 2 images, 1 in time domain, 1 in frequency domain, combine them together
     
+*   Rust shell - Use Rust to build a shell
+    
 
 ## Hardware
 
@@ -58,8 +60,6 @@ There are so many things I want to do, below is a list of them:
 
 ## Books
 
-*   [Linux Kernel Labs](https://linux-kernel-labs.github.io/refs/heads/master/index.html)
-    
 *   The StatQuest Illustrated Guide To Machine Learning
     
 *   Who Moved my Cheese?
