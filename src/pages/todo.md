@@ -111,3 +111,13 @@ There are so many things I want to do, below is a list of them:
 *   Computer Systems: A Programmer's Perspective (CSAPP)
     
 *   Operating Systems: Three Easy Pieces (OSTEP)
+    
+*   The Pragmatic Programmer
+    
+*   Working Effectively with Legacy Code
+    
+*   SQL for Smarties
+    
+*   TCP/IP Illustrated Volume 1
+    
+*   Advanced Programming in the Unix Environment
