@@ -46,6 +46,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Rust shell - Use Rust to build a shell
     
+*   [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html)
+    
 
 ## Hardware
 
@@ -121,3 +123,23 @@ There are so many things I want to do, below is a list of them:
 *   TCP/IP Illustrated Volume 1
     
 *   Advanced Programming in the Unix Environment
+    
+*   The Probability Lifesaver
+    
+*   Head First Design Patterns
+    
+*   Designing Data-Intensive Applications (DDIA)
+    
+*   Atkinson and Hilgard's Introduction to Psychology
+    
+*   The Effective Engineer
+    
+*   Code Complete
+    
+*   Programming Pearls
+    
+*   Debugging: The 9 Indispensable Rules for Finding Even the Most Elusive Software and Hardware Problems
+    
+*   Refactoring
+    
+*   Software Engineering at Google
