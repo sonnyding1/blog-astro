@@ -47,6 +47,8 @@ There are so many things I want to do, below is a list of them:
 *   Rust shell - Use Rust to build a shell
     
 *   [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html)
+
+*   [Ben Awad, How to Code a VSCode Extension](https://www.youtube.com/watch?v=a5DX5pQ9p5M)
     
 
 ## Hardware
