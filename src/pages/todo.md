@@ -54,6 +54,8 @@ There are so many things I want to do, below is a list of them:
     
 *   TkDodo's [Practical React Query](https://tkdodo.eu/blog/practical-react-query)
     
+*   try Giscus (possibly port to my blog site)
+    
 
 ## Hardware
 
