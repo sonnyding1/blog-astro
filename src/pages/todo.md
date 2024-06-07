@@ -52,6 +52,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Successfully deploy Sink
     
+*   TkDodo's [Practical React Query](https://tkdodo.eu/blog/practical-react-query)
+    
 
 ## Hardware
 
