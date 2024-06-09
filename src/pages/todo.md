@@ -62,6 +62,8 @@ There are so many things I want to do, below is a list of them:
 *   STM32 Bluetooth design - Follow [this video](https://www.youtube.com/watch?v=nkHFoxe0mrU&ab_channel=Phil%E2%80%99sLab) to design a board with KiCad.
     
 *   FPGA camera with Laughing Man - Camera, but covers faces with Laughing Man logo.
+
+*   [UCLA WRAP](https://www.youtube.com/playlist?list=PLAWsHzw_h0ija8PyC4nCQSKdLg5cxHA_u)
     
 
 ## Books
