@@ -55,6 +55,8 @@ There are so many things I want to do, below is a list of them:
 *   TkDodo's [Practical React Query](https://tkdodo.eu/blog/practical-react-query)
     
 *   try Giscus (possibly port to my blog site)
+
+*   [Zero to Bug Bounty Hero](https://www.youtube.com/playlist?list=PLbyncTkpno5FaAbJJ7YHvMY9wtJ9fyqCH)
     
 
 ## Hardware
