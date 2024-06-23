@@ -55,7 +55,7 @@ There are so many things I want to do, below is a list of them:
 *   TkDodo's [Practical React Query](https://tkdodo.eu/blog/practical-react-query)
     
 *   try Giscus (possibly port to my blog site)
-
+    
 *   [Zero to Bug Bounty Hero](https://www.youtube.com/playlist?list=PLbyncTkpno5FaAbJJ7YHvMY9wtJ9fyqCH)
     
 
@@ -64,7 +64,7 @@ There are so many things I want to do, below is a list of them:
 *   STM32 Bluetooth design - Follow [this video](https://www.youtube.com/watch?v=nkHFoxe0mrU&ab_channel=Phil%E2%80%99sLab) to design a board with KiCad.
     
 *   FPGA camera with Laughing Man - Camera, but covers faces with Laughing Man logo.
-
+    
 *   [UCLA WRAP](https://www.youtube.com/playlist?list=PLAWsHzw_h0ija8PyC4nCQSKdLg5cxHA_u)
     
 
@@ -157,3 +157,5 @@ There are so many things I want to do, below is a list of them:
 *   Software Engineering at Google
     
 *   Man's Search for Meaning
+    
+*   置身事内
