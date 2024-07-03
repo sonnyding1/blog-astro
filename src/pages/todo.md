@@ -159,3 +159,7 @@ There are so many things I want to do, below is a list of them:
 *   Man's Search for Meaning
     
 *   置身事内
+    
+*   A History of Graphic Design
+    
+*   My Way to Typography
