@@ -26,7 +26,7 @@ There are so many things I want to do, below is a list of them:
     
 *   Laughing Man - A web app that shows a camera feed with people's faces blurred out or covered with the Laughing Man logo in Ghost in the Shell.
     
-*   Todo mobile app - Todo app, but I want the UI to be aesthetically appeasing according to my standards, auto moves completed forms to bottom, auto archive completed items before today, auto generates logs for review/export.
+*   Todo mobile app - Todo app, but I want the UI to be aesthetically appeasing according to my standards, auto moves completed forms to bottom, auto archive completed items before today, auto generates logs for review/export. Also, provide multiple views based on due date, repetition, urgency. Provide cloud options to those who need it.
     
 *   Refine math web app - Probably add a landing page, and some level progression related contents.
     
@@ -57,6 +57,8 @@ There are so many things I want to do, below is a list of them:
 *   try Giscus (possibly port to my blog site)
     
 *   [Zero to Bug Bounty Hero](https://www.youtube.com/playlist?list=PLbyncTkpno5FaAbJJ7YHvMY9wtJ9fyqCH)
+    
+*   AI singers sing ニコニコ動画流星群
     
 
 ## Hardware
