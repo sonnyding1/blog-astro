@@ -80,8 +80,6 @@ There are so many things I want to do, below is a list of them:
     
 *   余华短篇精选集
     
-*   The Mythical Man-Month
-    
 *   Async JavaScript
     
 *   Test-Driven React
@@ -165,3 +163,5 @@ There are so many things I want to do, below is a list of them:
 *   A History of Graphic Design
     
 *   My Way to Typography
+    
+*   Zero to Production in Rust
