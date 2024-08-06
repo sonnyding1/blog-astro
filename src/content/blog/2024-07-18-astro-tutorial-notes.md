@@ -6,6 +6,7 @@ featured: false
 draft: false
 tags:
   - astro
+  - tl;dr
 description: This blog post is a TL;DR version of the official Astro tutorial.
 ---
 This blog post is a TL;DR version of the [official Astro tutorial](https://docs.astro.build/en/tutorial).
