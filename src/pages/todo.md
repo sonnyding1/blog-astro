@@ -72,8 +72,6 @@ There are so many things I want to do, below is a list of them:
 
 ## Books
 
-*   The StatQuest Illustrated Guide To Machine Learning
-    
 *   Who Moved my Cheese?
     
 *   Do Androids Dream of Electric Sheep?
@@ -86,17 +84,7 @@ There are so many things I want to do, below is a list of them:
     
 *   狼书（卷1）
     
-*   ダンジョン飯
-    
-*   竹光侍
-    
-*   バガボンド
-    
-*   Steel Ball Run
-    
 *   Feeling Good: The New Mood Therapy
-    
-*   No Silver Bullet
     
 *   采购与供应链管理：一个实践者的角度
     
