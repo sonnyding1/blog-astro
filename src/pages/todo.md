@@ -10,6 +10,10 @@ There are so many things I want to do, below is a list of them:
     
 *   EE Toolkit - A web app that I want to write in Vue3, which is a collection of tools for Electrical Engineering students
     
+*   MNIST from scratch
+    
+*   Andrej Kaparthy's [Makemore](https://github.com/karpathy/makemore) with a twist
+    
 *   Sticker Stride - A web app that displays a calndar, users can add different stickers onto each date, tracking their habits.
     
 *   Figure out how does Umami work
