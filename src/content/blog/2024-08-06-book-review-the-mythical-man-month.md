@@ -6,7 +6,7 @@ featured: false
 draft: false
 tags:
   - book review
-  - tl;dr
+  - tldr
 description: After reading "The Mythical Man-Month," I have some reflections.
   This book is the author's exploration of "how to effectively enable an
   organization to develop software programs."
