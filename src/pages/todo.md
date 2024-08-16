@@ -157,3 +157,37 @@ There are so many things I want to do, below is a list of them:
 *   My Way to Typography
     
 *   Zero to Production in Rust
+
+*   Modern Software Engineering
+
+*   Clean Code
+
+*   [Learning SQL](http://www.r-5.org/files/books/computers/languages/sql/mysql/Alan_Beaulieu-Learning_SQL-EN.pdf)
+
+*   Unit Testing Principles, Practices, and Patterns
+
+*   The Art of Unit Testing
+
+*   Domain Driven Design Quickly
+
+*   Test-Driven Development by Example
+
+*   Fundamentals Of Software Architecture
+
+*   Clean Architecture
+
+*   Software Architecture The Hard Parts
+
+*   A Philosophy of Software Design
+
+*   Understanding Distributed Systems
+
+*   Designing Distributed Systems
+
+*   The Phoenix Project
+
+*   DevOps Handbook
+
+*   Continuous Delivery
+
+*   Accelerate
