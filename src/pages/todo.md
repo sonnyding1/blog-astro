@@ -76,8 +76,6 @@ There are so many things I want to do, below is a list of them:
 
 ## Books
 
-*   Who Moved my Cheese?
-    
 *   Do Androids Dream of Electric Sheep?
     
 *   余华短篇精选集
@@ -193,3 +191,7 @@ There are so many things I want to do, below is a list of them:
 *   Accelerate
     
 *   CSS: The Definitive Guide
+    
+*   传习录
+    
+*   大学
