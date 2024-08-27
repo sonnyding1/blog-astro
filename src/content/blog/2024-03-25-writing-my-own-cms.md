@@ -2,7 +2,7 @@
 title: Writing my own CMS
 pubDatetime: 2024-03-25T10:58:00-07:00
 postSlug: writing-my-own-cms
-featured: true
+featured: false
 draft: false
 tags:
   - front-end
