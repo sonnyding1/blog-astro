@@ -1,5 +1,5 @@
 ---
-title: "Book Review: Who Moved My Cheese\\?"
+title: "Book Review: Who Moved My Cheese"
 pubDatetime: 2024-08-27T18:27:00+08:00
 postSlug: book-review-who-moved-my-cheese
 featured: true
