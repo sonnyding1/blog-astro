@@ -63,6 +63,8 @@ There are so many things I want to do, below is a list of them:
 *   [Zero to Bug Bounty Hero](https://www.youtube.com/playlist?list=PLbyncTkpno5FaAbJJ7YHvMY9wtJ9fyqCH)
     
 *   AI singers sing ニコニコ動画流星群
+
+*   [Black-Scholes Model](https://www.youtube.com/watch?v=lY-NP4X455U)
     
 
 ## Hardware
