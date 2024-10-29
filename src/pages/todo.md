@@ -68,6 +68,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Go By Example
     
+*   Learn and build my own mail server
+    
 
 ## Hardware
 
