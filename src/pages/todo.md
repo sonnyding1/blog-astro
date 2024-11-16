@@ -70,6 +70,8 @@ There are so many things I want to do, below is a list of them:
     
 *   Learn and build my own mail server
     
+*   Grind 75 cli
+    
 
 ## Hardware
 
