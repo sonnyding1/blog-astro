@@ -205,3 +205,5 @@ There are so many things I want to do, below is a list of them:
 *   大学
     
 *   Practical Electronics for Inventors
+    
+*   [Reverse Engineering for Everyone](https://0xinfection.github.io/reversing/)
